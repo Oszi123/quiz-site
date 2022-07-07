@@ -9,7 +9,7 @@
 } 
 
 body {
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -45,7 +45,7 @@ float: right;
 }
 
 .inner-container {
-    background-color: rgba(61, 212, 217, 0.335);
+    background-color: rgba(217, 61, 61, 0.335);
     height: 100%;
     width: 50%;
     margin: 0 auto;
@@ -86,13 +86,14 @@ main {
     display: none;
 }
 
-.highscore-screen {
-    display: block;
-}
 
-.highscore-screen ol {
-    overflow: scroll;
-    max-height: 200px;
+
+
+
+.answer-style {
+    padding: 1.5rem, 2.5rem;
+    background-color: rgb(0, 0, 0);
+    color: white
 }
 
 
