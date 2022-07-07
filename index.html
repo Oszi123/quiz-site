@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Quiz</title>
-</head>
-<body> 
-<header>
 
-</header>
-    <main>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz</title>
+    </head>
 
+    <body>
+        <div class="outer-container">
+            <div class="top-bar">
+                <button>View Highscore</button>
+                <p>timer: 00:00</p>
+            </div>
 
+            <div class="inner-container">
+                <header class="quiz-intro">
+                    <h1>Welcome to the quiz</h1>
+                    <p>To get started, Click Start Button</p>
+                    <button id="start-quiz-btn">Start Quiz</button>
+                </header>
+                <main>
+                    <section class="question-screen">
+                        <h1>Question is gonna go here</h1>
+                        <ul id="answers">        
+                            <li>
+                                <button id="answer-one">Answer 1</button>
+                            </li>
+                            <li>
+                                <button id="answer-two">Answer 2</button>
+                            </li>
+                            <li>
+                                <button id="answer-three">Answer 3</button>
+                            </li>
+                            <li>
+                                <button id="answer-four">Answer 4</button>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="quiz-finish-screen">
+                        <h2>Quiz finished</h2>
+                        <p>Your score: 00</p>
+                        <div>
+                            <label for="">Enter Initials</label>
+                            <input type="text">
+                            <button id="submit">SUBMIT</button>
+                        </div>
+                    </section>
+                    <section class="highscore-screen">
+                       <h2>Top Scores</h2>
+                        <ol id="highscore">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <button id="">Go Back</button>
+                            <button id="">Clear highscores</button>
+                       </ol>
+                    </section>
+                  
+                </main>
+            </div>
+        </div>
+    </body>
 
-
-    
-    </main>
-</body>
 </html>

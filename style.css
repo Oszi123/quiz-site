@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 5px;
+} 
+
+body {
+    background-color: rgb(67, 67, 67);
+
+}
+
+p {
+    color: white;
+    font-size: 1.3em;
+}
+
+button {
+    outline: none;
+    background-color: black;
+    font-size: 1.3em;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+}
+
+.top-bar p {
+float: right;
+}
+
+.inner-container {
+    background-color: rgba(61, 212, 217, 0.335);
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top-bar p {
+    float:right;
+}
+
+.quiz-intro, main {
+    display: block;
+    margin-bottom: 30vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+.quiz-intro p {
+    text-align: center;
+}
+
+.quiz-intro button {
+    display: block;
+    margin: 0 auto;
+}
+ 
+main {
+    display: block;
+}
+
+.question-screen {
+    display: block;
+}
+
+.quiz-finish-screen {
+    display: none;
+}
+
+.highscore-screen {
+    display: block;
+}
+
+.highscore-screen ol {
+    overflow: scroll;
+    max-height: 200px;
+}
+
+
+
+
+
+
