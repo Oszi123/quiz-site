@@ -5,20 +5,26 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home page</title>
         <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/faf8c0e405.js" crossorigin="anonymous"></script>
+        <title>Document</title>
     </head>
 
     <body>
-        <div class="container">
-            <div id="home" class="flex-column flex-center">
-                <h1>Ready to begin?</h1>
-                <a href="quiz.html"" class=" btn">Begin</a>
-                <a href="/highscores.html" id="#highscore-btn" class="btn">Highscores here<i
-                        class="fas fa-crown"></i></a>
-            </div>
-        </div>
+        <section id="start-quiz-container">
+            <h1>Coding Quiz!</h1>
+            <p>Click the following button to start the coding quiz.</p>
+            <button id="start-quiz-button">Start Quiz</button>
+        </section>
+        <section id="question-container" class="hide">
+            <h2 id="question">Which of the following is class?</h2>
+            <ul>
+                <li class="choice" id="choice-1" data-correct="false">#class-name</li>
+                <li class="choice" id="choice-2" data-correct="false">$class-name</li>
+                <li class="choice" id="choice-3" data-correct="false">&class-name</li>
+                <li class="choice" id="choice-4" data-correct="true">.class-name</li>
+            </ul>
+        </section>
+        <script src="logic.js"></script>
     </body>
 
 </html>
